@@ -1,1 +1,1 @@
-select * from customers where id = {{id}}
+select * from customers where id in ({{id}})
